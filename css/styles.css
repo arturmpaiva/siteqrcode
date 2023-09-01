@@ -13,9 +13,27 @@ body {
     max-width: 24rem;
     margin: 15px;
     background-color: hsl(0, 0%, 100%);
+    padding-right: 30px;
+    border-radius: 5%;
 }
 
 .qrcode {
-    max-width: 90%;
-    margin: 15px;
+    max-width: 100%;
+    margin: 15px 0 0 15px;
+    border-radius: 5%;
+}
+
+.container h1 {
+    color: hsl(218, 44%, 22%);
+    font-size: 27px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.container p {
+    font-size: 1rem;
+    color: hsl(220, 15%, 55%);
+    padding: 0 0px 30px 15px;
+    line-height: 1.3rem;
+    width: 100%;
 }
